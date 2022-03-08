@@ -18,13 +18,6 @@ public class Volatile1{//volatile关键字不保证原子性
                 }
             }).start();
 
-
-//            new Thread(new Runnable() {
-//                @Override
-//                public void run() {
-//
-//                }
-//            }).start();
         }
         System.out.println(obj.a);
     }
